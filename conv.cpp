@@ -6,9 +6,9 @@ int main()
     int k[200],m,r,j=0,b=0,c=1,z[200];
     char s[200],t[200];
    float y=0,o=0,d,g;
-   cout<<"enter any decimal number \n";
+   cout<<"enter the decimal number \n";
    cin>> d;
-   cout<<"THE INPUT NO. IS: "<<d<<endl<<endl;
+   cout<<"Your entered number is: "<<d<<endl<<endl;
 
         {
            r=(int)d;
@@ -18,7 +18,7 @@ int main()
        j++;
       k[j]=r%2;
    }
-   cout<<"THE BINARY CONVERSION IS:";
+   cout<<"The converted form in binary is :";
 
    while(j>0)
    {
